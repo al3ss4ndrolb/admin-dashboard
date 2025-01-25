@@ -5,11 +5,19 @@ body {
 }
 
 .header {
+  display: grid;
   background-color: #ffffff;
+  grid-template: 1fr 1fr / 3fr 1fr;
+  grid-row: ;
 }
+
+.second-row {
+  grid-row: 2;
+}
+
 .sidebar {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr;
   background-color: #1991d3;
   gap: 20px;
 }
