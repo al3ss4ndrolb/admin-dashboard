@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ffffff;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1991d3;
+  gap: 20px;
+}
+
+.nav-links,
+.nav-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a,
+.nav-options a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5x 10px;
+}
+
+main {
+  padding: 20px;
+  background-color: #e2e8f0;
+}
