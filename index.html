@@ -7,50 +7,57 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
   </head>
-  <body>
-    <header class="header">
-      <div class="first-row">This is the header</div>
-      <div class="second-row">This is the second row</div>
-    </header>
-    <nav class="sidebar">
-      <div class="dashboard-logo"></div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Messages</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Tasks</a></li>
-        <li><a href="#">Communities</a></li>
-      </ul>
 
-      <ul class="nav-options">
-        <li><a href="#">Settings</a></li>
-        <li><a href="#">Support</a></li>
-        <li><a href="#">Privacy</a></li>
-      </ul>
-    </nav>
-    <main>
-      <div class="cards-container">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-      </div>
-      <aside>
-        <div class="announcements card">
-          <div class="announcement"></div>
-          <div class="announcement"></div>
-          <div class="announcement"></div>
+  <body>
+    <div class="grid">
+      <nav class="sidebar">
+        <div class="dashboard-logo"></div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Tasks</a></li>
+          <li><a href="#">Communities</a></li>
+        </ul>
+
+        <ul class="nav-options">
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+      <main class="main-content">
+        <header class="header">
+          <div class="first-row">This is the header</div>
+          <div class="second-row">This is the second row</div>
+        </header>
+
+        <div class="projects-and-announcements">
+          <div class="cards-container">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+
+          <aside>
+            <div class="announcements card">
+              <div class="announcement"></div>
+              <div class="announcement"></div>
+              <div class="announcement"></div>
+            </div>
+            <div class="trending-container">
+              <div class="trends"></div>
+              <div class="trends"></div>
+              <div class="trends"></div>
+              <div class="trends"></div>
+            </div>
+          </aside>
         </div>
-        <div class="trending-container">
-          <div class="trends"></div>
-          <div class="trends"></div>
-          <div class="trends"></div>
-          <div class="trends"></div>
-        </div>
-      </aside>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
