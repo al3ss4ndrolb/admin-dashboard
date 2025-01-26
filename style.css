@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -35,6 +42,15 @@ body {
   padding-left: 1rem;
   align-items: center;
   justify-content: flex-start;
+}
+
+.dashboard-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  padding-left: 10px;
+  padding: 1rem;
 }
 
 .main-content {
