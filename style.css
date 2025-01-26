@@ -24,9 +24,9 @@ body {
 
 .sidebar {
   display: grid;
-  grid-template-rows: 1fr;
+  grid-template-rows: 0.3fr 1fr 3fr;
   background-color: #1991d3;
-  gap: 20px;
+  gap: 25px;
   height: 100vh;
 }
 
@@ -38,7 +38,7 @@ body {
 
 .sidebar li {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   padding-left: 1rem;
   align-items: center;
   justify-content: flex-start;
@@ -50,7 +50,7 @@ body {
   color: white;
   gap: 10px;
   padding-left: 10px;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .main-content {
@@ -72,7 +72,12 @@ body {
   text-decoration: none;
   color: white;
   display: block;
-  padding: 5x 10px;
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+.nav-options {
+  margin-top: 20px;
 }
 
 main {
