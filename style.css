@@ -13,7 +13,8 @@ body {
 
 .grid {
   display: grid;
-  grid-template: 1fr / 0.8fr 4fr;
+  width: 100vw;
+  grid-template: 1fr / 30vh 70vh;
 }
 
 .header {
@@ -58,7 +59,11 @@ body {
 }
 
 .main-content {
-  width: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .nav-links,
