@@ -12,9 +12,9 @@ body {
 }
 
 .grid {
+  box-sizing: border-box;
   display: grid;
-  width: 100vw;
-  grid-template: 1fr / 30vh 70vh;
+  grid-template: 1fr / 20vw 80vw;
 }
 
 .header {
@@ -31,17 +31,23 @@ body {
   display: grid;
   gap: 10px;
   padding: 10px;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .search-elements,
 .right-hand-elements {
   padding: 0 20px;
   display: flex;
-  flex-direction: row;
   gap: 15px;
+  align-items: center;
 }
 
+.right-hand-elements {
+  display: flex;
+  justify-content: flex-end;
+}
 #search-bar {
   width: 500px;
   padding: 10px;
@@ -89,7 +95,6 @@ body {
 .main-content {
   margin: 0;
   padding: 0;
-  width: 100vw;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
