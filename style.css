@@ -21,6 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+  gap: 5px;
 }
 
 .header svg {
@@ -56,6 +57,11 @@ body {
   border-radius: 20px;
   background-color: #e2e8f0;
 }
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
 
 .avatar-and-welcome {
   display: flex;
@@ -83,6 +89,22 @@ body {
 .welcome-message h3 {
   margin: 0;
   padding: 0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header-buttons button {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1991d3;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .sidebar {
