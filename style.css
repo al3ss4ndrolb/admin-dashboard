@@ -179,3 +179,21 @@ main {
   padding: 20px;
   background-color: #e2e8f0;
 }
+
+.projects-and-announcements {
+  display: grid;
+}
+.cards-container {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 0.7fr;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
