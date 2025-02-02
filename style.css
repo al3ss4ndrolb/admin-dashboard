@@ -199,6 +199,67 @@ main {
 .card {
   background-color: white;
   border-radius: 10px;
-  margin: 20px;
+  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  color: #666;
+}
+
+.announcement {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.announcement p {
+  color: #666;
+  margin: 5px 0 20px 0;
+}
+
+.announcement > div:not(:last-child) {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.announcements-and-trending {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trends {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.trend-info p,
+.trend-info h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.trend-info p {
+  color: #666;
 }
