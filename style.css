@@ -146,8 +146,6 @@ body {
 .main-content {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-rows: 1fr 4fr;
 }
 
 .nav-links,
@@ -180,20 +178,27 @@ main {
   background-color: #e2e8f0;
 }
 
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 .projects-and-announcements {
   display: grid;
+  grid-template-columns: 3fr 1fr;
 }
+
 .cards-container {
   display: grid;
   gap: 20px;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 0.7fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .card {
   background-color: white;
   border-radius: 10px;
-  padding: 20px;
   margin: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
