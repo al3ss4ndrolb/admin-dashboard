@@ -268,3 +268,21 @@ main {
 .trend-info p {
   color: #666;
 }
+
+.card-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.card-icons svg {
+  fill: #666;
+}
+
+.card h4 {
+  margin-bottom: 0px;
+}
+
+.card p {
+  margin-top: 0px;
+}
