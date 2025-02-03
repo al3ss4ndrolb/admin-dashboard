@@ -212,11 +212,18 @@ main {
   color: #666;
 }
 
+.announcements-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .announcement {
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #e2e8f0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .announcement h3 {
@@ -228,12 +235,6 @@ main {
 .announcement p {
   color: #666;
   margin: 5px 0 20px 0;
-}
-
-.announcement > div:not(:last-child) {
-  border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 
 .announcements-and-trending {
@@ -277,6 +278,12 @@ main {
 
 .card-icons svg {
   fill: #666;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.card-icons svg:hover {
+  fill: #333;
 }
 
 .card h4 {
@@ -285,4 +292,35 @@ main {
 
 .card p {
   margin-top: 0px;
+}
+
+.announcement:last-child {
+  border-bottom: none;
+}
+
+/* Make all SVGs clickable with hover effect */
+svg {
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+/* Header SVGs hover effect */
+.header svg:hover {
+  fill: #000;
+}
+
+/* Sidebar SVGs hover effect */
+.sidebar svg:hover {
+  fill: #e2e8f0;
+}
+
+/* Card icons hover effect - keeping your existing styles */
+.card-icons svg {
+  fill: #666;
+  cursor: pointer;
+  transition: fill 0.2s ease;
+}
+
+.card-icons svg:hover {
+  fill: #333;
 }
